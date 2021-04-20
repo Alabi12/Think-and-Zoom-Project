@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: url('../images/background1.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    padding-bottom: 50%;
+    color: cornsilk;
+}
+
+.row h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: transparent;
+    height: 50px;
+    padding: 1rem;
+    text-align: center;
+    margin-top: 0%;
+    color: rgba(250, 240, 240, 0.966);
+
+
+}
+
+.navbar ul{
+    list-style-type: none;
+    padding: 0%;
+    margin: 0;
+}
+  
+.navbar ul li a {
+    width: 60px;
+    padding: 8px 16px;
+    text-decoration: none;
+    display: block;
+    color: thistle;
+    font-size: 20px;
+  }
+  .navbar ul li {
+   display: inline;
+   float: right;
+   padding-right: 50px;
+   margin-left: 10%;
+   
+  }
+.navbar ul li :hover {
+    color: black;
+    font-size: 30px;     
+}
+
+.active{
+    background-color: rgb(3, 66, 3);
+    border-radius: 20%;
+}
+
+.item1 img {
+    height: 30%;
+    position: relative;
+    border-radius: 5%;
+    padding-left: 2%; 
+}
+.item2 img {
+    height: 30%;
+    position: relative;
+    border-radius: 5%; 
+}
+#blink {
+    font-size: 30px;
+    font-weight: bold;
+    color: #020e01f1;
+    transition: 0.5s;
+    text-align: center;
+}
+
+/*--------------------------Services ------------------------------*/
+
+section {
+    background-color: blanchedalmond;
+    text-align: center;
+    color: blue;
+    opacity: 0.5;
+    padding: 10px%;
+
+}
+
